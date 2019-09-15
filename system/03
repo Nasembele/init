@@ -1,0 +1,5 @@
+# What file has to be modified to make it permanent?
+
+/etc/hostname
+
+Modify it and restart the system.

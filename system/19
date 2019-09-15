@@ -1,0 +1,19 @@
+# List all services which are started at boot time 
+# and name this kind of services
+
+ssystemctl list-unit-files --type=service | grep enabled | awk '{print $1}' | cut -d. -f1
+
+apparmor
+autovt@
+console-setup
+cron
+dbus-org
+getty@
+keyboard-setup
+networking
+rsyslog
+ssh
+sshd
+syslog
+systemd-fsck-root
+systemd-timesyncd

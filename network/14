@@ -1,0 +1,4 @@
+# What file contains the local DNS entries?
+
+Search for system configuration folder of any Unix system, then for hosts. 
+Use find /etc/hosts

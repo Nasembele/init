@@ -1,0 +1,7 @@
+# Thanks to the previous question and the reverse DNS find the name of your host
+# nslookup 192.168.30.36
+
+Server:         192.168.50.2
+Address:        192.168.50.2#53
+
+36.30.168.192.in-addr.arpa      name = vo-h4.21-school.ru.
