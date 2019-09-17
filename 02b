@@ -1,3 +1,0 @@
-# Identify all IP adresses which are part of the same subnet
-
-arp -a
